@@ -1,4 +1,4 @@
-# Install
+# How to use
 ## Create the script folder
 ```
 # mkdir /etc/freeradius/3.0/scripts
