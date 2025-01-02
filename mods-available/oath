@@ -1,0 +1,4 @@
+exec oath {
+        wait = yes
+        program = "/usr/local/bin/bash /etc/freeradius/3.0/scripts/oathverify.sh %{request:User-Name} %{request:User-Password} %{reply:OATH-Init-Secret} %{reply:OATH-PIN} %{reply:OATH-Offset}"
+}
